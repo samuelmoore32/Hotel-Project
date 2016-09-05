@@ -1,0 +1,589 @@
+/* GENERAL BODY */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather','Palatino',serif;
+    color: #695D5D;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300;
+}
+
+/* NAVIGATION BAR */
+#smallLogo {
+    padding: 1px;
+    margin: -8px;
+    height: 60px;
+}
+
+ul .navright {
+    float: right;
+    padding-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5C415D;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+}
+
+#sideMenu,#navbar a:hover:not(.active) {
+    background-color: #7c667d;
+}
+
+.active {
+    background-color: #8c7a8d;
+}
+
+/*********************************
+********** FOOTER **************
+*******************************/
+footer {
+    border-top: 4px solid #8c7a8d;
+    background: #5C415D;
+    clear: both;
+    color: #fff;
+    height: 300px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footerContainer {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+#footerLeft {
+    text-align: left;
+    width: 50%;
+}
+
+#socialIcons {
+    font-size: 30px;
+}
+
+i {
+    padding-right: 10px;
+}
+
+i:hover {
+    color: #8c7a8d;
+}
+
+#left {
+    width: 50%;
+    float: left;
+    background: #5C415D;
+}
+
+#smallPrint ul li {
+    padding-right: 3px;
+    padding-top: 14px;
+    margin: 3px;
+    font-size: 12px;
+    padding-left: 0;
+    margin-left: -16px;
+}
+
+#smallPrint ul li :hover {
+    color: #8c7a8d;
+}
+
+#right {
+    width: 50%;
+    float: left;
+    margin: auto;
+}
+
+#right i {
+    font-size: 35px;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 20px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#footerRight ul li {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+/* HOMEPAGE */
+/******************************************
+*********** BLOG **************************
+*******************************************/
+.pborder {
+    border-bottom: 2px dashed #B4A5A5;
+    padding: 6px;
+    margin-bottom: 24px;
+    padding-bottom: 27px;
+}
+
+.faqContent {
+    float: left;
+    clear: none;
+    height: 1800px;
+    width: 60%;
+    padding: 20px;
+}
+
+.faqContent a {
+    text-decoration: none;
+}
+
+.blogArticle a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.blogArticle a:hover {
+    color: #5C415D;
+}
+
+.blogArticle h3 {
+    color: #fff;
+}
+
+.blogArticle {
+    color: #e6e6e6;
+    padding-left: 20px;
+}
+
+div.blogArticle:nth-child(2) > p:nth-child(3) {
+    font-size: 11px;
+}
+
+div.blogArticle:nth-child(4) > p:nth-child(3) {
+    font-size: 11px;
+}
+
+div.blogArticle:nth-child(6) > p:nth-child(3) {
+    font-size: 11px;
+}
+
+.aboutContent a {
+    text-decoration: none;
+}
+
+
+/******************************************
+*********** Forms **************************
+*******************************************/
+#form1 {
+    float: right;
+    top: 86px;
+    padding-top: 306px;
+    padding-right: 21px;
+}
+
+#form1 input,select {
+    border-radius: 15px;
+    padding: 4px 4px 4px 12px;
+    color: #695D5D;
+    box-shadow: 1px 3px 9px #CCC;
+    margin-left: 6px;
+    padding-left: 11px;
+    margin-left: 7px;
+}
+
+#form1 button {
+    border-radius: 15px;
+    padding: 6px;
+    color: #fff;
+    background-color: #7CCB1B;
+    text-shadow: -1px -1px 7px #0F0C0F;
+    padding: 11px;
+    margin-left: 27px;
+}
+
+#form1 input,select :hover {
+    box-shadow: 7px 3px 9px #142339;
+}
+
+#form1 button :hover {
+    background-color: #88D826;
+}
+
+#form1 label {
+    padding-left: 5px;
+}
+
+#twoColumn {
+    display: block;
+    width: 100px;
+    overflow: auto;
+    margin: 30px auto 0;
+}
+
+#mainImage {
+    box-shadow: 1px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.aboutContent {
+    float: left;
+    clear: none;
+    height: 1200px;
+    width: 60%;
+    padding: 20px;
+}
+
+#blogheading {
+    text-align: center;
+}
+
+#bannerImage {
+    background: url("../img/location.jpg") no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #EDDC80;
+    border-bottom: 1px solid #5C415D;
+}
+
+/*HEADER */
+#home {
+    background: url("../img/bedroom2.jpg") no-repeat center center fixed;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #EDDC80;
+    border-bottom: 1px solid #5C415D;
+}
+
+#bannerImage1 {
+    background: url("../img/facilitiesbackground.jpg") no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #EDDC80;
+    border-bottom: 1px solid #5C415D;
+}
+
+#headerSlogan {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    text-shadow: -1px -1px 7px #0f0c0f;
+    color: #fff;
+    font-family: 'Merriweather','Palatino',serif;
+    text-align: center;
+}
+
+/* Main COntent */
+#pageTitle {
+    text-align: left;
+    float: left;
+    font-size: 1em;
+    line-height: 23px;
+    clear: both;
+    color: #5C415D;
+}
+
+#pageTitle span {
+    color: #7c667d;
+    font-size: 22px;
+}
+
+#titleBackground {
+    padding-top: 20px;
+}
+
+/* 3 Column layout */
+.fil {
+    width: 80%;
+    float: left;
+    padding: 5px 15px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.pagewrap {
+    padding: 20px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+.threeCol {
+    width: 30%;
+    float: left;
+    padding: 5px 15px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.homepagethumb {
+    width: 100%;
+    -webkit-box-shadow: 6px 7px 20px 0 #5C415D;
+    -moz-box-shadow: 6px 7px 20px 0 #5C415D;
+    box-shadow: 6px 7px 20px 0 #5C415D;
+}
+
+.homepagethumb:hover {
+    -webkit-box-shadow: 6px 7px 20px 0 #8c7a8d;
+    -moz-box-shadow: 6px 7px 20px 0 #8c7a8d;
+    box-shadow: 6px 7px 20px 0 #8c7a8d;
+}
+
+/**************************
+***SIDE MENU*****
+***************************/
+#sideMenu {
+    float: left;
+    clear: none;
+    height: 1200px;
+    width: 30%;
+    padding-top: 40px;
+}
+
+.tabsMenu {
+    height: 30px;
+    float: left;
+    clear: both;
+}
+
+.tabs-menu li.active {
+    position: relative;
+    z-index: 5;
+}
+
+.tab {
+    float: left;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.tabContent {
+    width: 90%;
+    padding: 20px;
+    display: none;
+}
+
+#tab1 {
+    display: block;
+}
+
+/********************
+*** LOCATION PAGE ****
+*********************/
+#bannerImage2 {
+    background: url("../img/hotelLocation.jpg") no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #EDDC80;
+    border-bottom: 1px solid #5C415D;
+}
+
+.location {
+    padding-top: 30px;
+    padding-left: 229px;
+    padding-right: 211px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.google-maps {
+    width: 1000px;
+    border: solid 2px #5C415D;
+    -webkit-box-shadow: 6px 7px 20px 0 #5C415D;
+    -moz-box-shadow: 6px 7px 20px 0 #5C415D;
+    box-shadow: 6px 7px 20px 0 #5C415D;
+    margin-bottom: 100px;
+}
+
+#googleMaps {
+    width: 99%;
+    height: 400px;
+}
+
+#coachP {
+    margin-bottom: 120px;
+}
+
+/*******************
+***** Contact PAGE ***
+**********************/
+.contactPage {
+    width: 100%;
+    margin: auto;
+}
+
+#contactForm {
+    float: left;
+}
+
+#contactForm input {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#contactForm textarea {
+    width: 100%;
+    height: 100px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#submit {
+    width: 33%;
+    margin: auto;
+}
+
+#submitButton {
+    background-color: #7CCB1B;
+    color: #fff;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+#contactInfo {
+    float: right;
+    color: #5C415D;
+}
+
+.center {
+    text-align: center;
+}
+
+.col2 {
+    width: 40%;
+    margin-bottom: 120px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#socialIconsContact {
+    color: #5C415D;
+    font-size: 50px;
+}
+
+#bannerImage3 {
+    background: url("../img/contact.jpg") no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #EDDC80;
+    border-bottom: 1px solid #5C415D;
+}
+
+/*********************
+**** REVIEW PAGE *****
+*********************/
+#reviewList {
+    float: left;
+    clear: none;
+    height: 1200px;
+    width: 60%;
+    padding: 20px;
+}
+
+.reviewer {
+    padding-left: 50px;
+}
+
+.review {
+    background-color: #f7f3f3;
+    padding: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px;
+}
+
+#bannerImage4 {
+    background: url("../img/bedroomBanner.jpg") no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #EDDC80;
+    border-bottom: 1px solid #5C415D;
+}
+
+#roomPage {
+    width: 90%;
+    margin: auto;
+}
+
+#bannerImage5 {
+    background: url("../img/reviewsBackround.jpg") no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #EDDC80;
+    border-bottom: 1px solid #5C415D;
+}
+
+/****************************
+******* TOURS ***************
+****************************/
+#bannerImage6 {
+    background: url("../img/tours.jpg") no-repeat center center fixed;
+    height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #EDDC80;
+    border-bottom: 1px solid #5C415D;
+}
+
+.toursimg {
+    width: 31%;
+    margin-bottom: 10px;
+    padding-left: 0;
+    padding-right: 22px;
+    float: left;
+}
